@@ -1,0 +1,71 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.navbar .collapse{
+    margin-left:550px;
+}
+
+.navbar-brand{
+    margin-left:100px;
+}
+
+
+section h1{
+    font-weight:bold;
+}
+
+.section-1 p{
+    font-size:1.25rem;
+    color:#6c757d !important;
+}
+
+.section-1 button{
+    font-size:1.25rem;
+   padding: 10px 13px;
+   border:none;
+}
+
+.section-2 .row{
+    display:flex;
+}
+
+.section-2 img{
+    width:498px;
+    height:332px;
+}
+
+.section h2{
+    font-weight: bold;
+}
+
+.section-2 p{
+    color:#6c757d !important;
+    font-size:1.25rem;
+} 
+
+.section-3 h2{
+    font-weight:bold;
+}
+
+.section-3 p{
+    color:#6c757d !important;
+}
+
+.section-3 .container{
+    padding-top: 100px;
+}
+
+.resim p{
+    font-style: italic;
+}
+
+.resim{
+    display:flex;
+}
+
+footer .teksira{
+    display:flex;
+    padding:20px 0;
+}

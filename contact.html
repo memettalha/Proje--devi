@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Business</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="odev.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                            <li><a class="dropdown-item" href="#">Blog Home</a></li>
+                            <li><a class="dropdown-item" href="#">Blog Post</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                            <li><a class="dropdown-item" href="#">Portfolio Overview</a></li>
+                            <li><a class="dropdown-item" href="#">Portfolio Item</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+      <section class="section-1 mt-5">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-1">
+                        <div class="feature justify-content-center  bg-primary rounded  px-1 py-2">
+                            <i class="bi bi-envelope text-white"></i>
+                        </div>
+                    </div>
+                    <h1 class="text-center mt-3 mb-1">Get in touch</h1>
+                    <p class="text-center pb-4">We'd love to hear from you</p>
+
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-8 col-xl-6">
+                          
+                            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                                <!-- Name input-->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required"/>
+                                    <label for="name">Full name</label>
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                </div>
+                                <!-- Email address input-->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                    <label for="email">Email address</label>
+                                    <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                    <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                                </div>
+                                <!-- Phone number input-->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                    <label for="phone">Phone number</label>
+                                    <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                                </div>
+                                <!-- Message input-->
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                    <label for="message">Message</label>
+                                    <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                </div>
+                                <!-- Submit success message-->
+                                <!---->
+                                <!-- This is what your users will see when the form-->
+                                <!-- has successfully submitted-->
+                                <div class="d-none" id="submitSuccessMessage">
+                                    <div class="text-center mb-3">
+                                        <div class="fw-bolder">Form submission successful!</div>
+                                        To activate this form, sign up at
+                                        <br />
+                                        <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                    </div>
+                                </div>
+                                <!-- Submit error message-->
+                                <!---->
+                                <!-- This is what your users will see when there is-->
+                                <!-- an error submitting the form-->
+                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                                <!-- Submit Button-->
+                                <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+             
+                </div>
+            </div>
+      </section>
+
+
+      
+
+
+
+      <section class="section-2 mt-5 ">
+            <div class="container">
+                <div class="row ">
+                    <div class="contact d-flex col-12">
+                        <div class="icons mx-5">
+                            <div class="icon  mb-4 ">
+                                <i class="bi bi-chat-dots bg-primary text-white p-3 rounded"></i>
+                            </div>
+                            <h5 class="">Chat with us</h5>
+                            <p class="mb-3 ">Chat live with one of our support specialists.</p>
+                        </div>
+                        <div class="icons mx-5">
+                            <div class="icon  mb-4">
+                                <i class="bi bi-people bg-primary text-white p-3 rounded"></i>
+                            </div>
+                            <h5 class="">Ask the community</h5>
+                            <p class="mb-3">Explore our community forums and communicate with other users.</p>
+                        </div>
+                        <div class="icons mx-5">
+                            <div class="icon  mb-4">
+                                <i class="bi bi-question-circle bg-primary text-white p-3 rounded"></i>
+                            </div>
+                            <h5 class="">Support center</h5>
+                            <p class="mb-3">Browse FAQ's and support articles to find solutions.</p>
+                        </div>
+                        <div class="icons mx-5">
+                            <div class="icon  mb-4">
+                                <i class="bi bi-telephone bg-primary text-white p-3 rounded"></i>
+                            </div>
+                            <h5 class="">Call us</h5>
+                            <p class="mb-3">Call us during normal business hours at (555) 892-9403.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+
+      
+<footer class="bg-dark">
+        <div class="container py-1">
+            <div class="row">
+                <div class="teksira ">
+                    <div class="copy">
+                        <small class="text-white">Copyright © Your Website 2023</small>
+                    </div>
+                    <div class="left ms-auto">
+                        <a href="#" class="text-white"><small>Privacy</small> <span class="mx-1">.</span></a>
+                        <a href="#" class="text-white"><small>Terms</small><span class="mx-1">.</span</a>
+                        <a href="#" class="text-white"><small>Contact</small></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+   
+</body>
+</html>
+

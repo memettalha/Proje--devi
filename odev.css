@@ -1,0 +1,202 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin:0;
+}
+nav{
+    background-color: #212529;
+    padding: 12px 0;
+}
+
+.container{
+    display:flex;
+
+}
+
+
+.navbar .collapse{
+    margin-left:550px;
+}
+
+.navbar-brand{
+    margin-left:100px;
+}
+
+.logo a{
+    color:white;
+    text-decoration: none;
+    padding:0 100px;
+    font-size: 20px;
+}
+
+.nav-1{
+    float:right;
+    display:flex !important;
+    padding-left: 350px;
+
+}
+
+.nav-1 a{
+    color:#FFFFFF8C;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.section-1{
+    background-color: #212529;
+}
+
+.section-1 h1{
+    font-size: 3rem;
+}
+
+.section-1 h1{
+    color:white;
+}
+
+.section-1 p{
+    color:rgb(255,255,255,0.5);
+    font-size:1.25rem;
+}
+
+
+.container-2{
+    display:flex;
+}
+
+.right{
+    width: 58.33333333%;
+    
+}
+
+.card-footer{
+    border:none;
+    padding:16px 8px ;
+}
+
+.right a{
+    font-size:1.25rem;
+    padding:5px 10px;
+}
+
+.container-3 p{
+    color:black;
+    display:flex;
+    justify-content: space-around;
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+}
+
+.sag{
+    display:flex;
+}
+
+.feature i{
+  
+}
+
+.h2{
+    font-size:1.25rem;
+}
+
+.container{
+    display:flex;
+}
+
+.bi{
+    font-size:1.5rem;
+}
+
+.yazi{
+    font-size: 1.5rem;
+}
+
+.ceo{
+    display:flex;
+    font-weight:bold;
+}
+
+.section-3 h2{
+    font-weight: bold;
+}
+
+.section-3 p{
+    font-size:1.25rem;
+    color:#6c757d !important;
+}
+
+.card .news{
+    color:white;
+    font-size:1.25rem;
+}
+
+.card a{
+    text-decoration:none;
+    color: #000;
+}
+
+.card p{
+    font-size:1rem;
+}
+
+.card-footer{
+    display:flex;
+}
+
+.card image{
+    color:rgba(33,37,41);
+}
+
+.products p{
+    color:rgb(255,255,255);
+    opacity:0.5;
+}
+
+.products .email{
+    display:flex;
+}
+
+.products .row{
+    display:flex;
+}
+
+
+footer{
+    display:flex;
+    background:#212529;
+    color:#fff;
+    padding: 20px 0;
+}
+
+.footer-left {
+    position:absolute;
+    right:0px;
+    padding-right: 170px;
+}
+
+.footor-left a{
+    text-decoration: none;
+}
+
+.copy small{
+    padding-left: 200px;
+}
+
+small{
+    padding-left: 150px;
+}
+
+.card .container{
+    display:flex;
+}
+
+.section-1 h1, p{
+    width:334px;
+}
